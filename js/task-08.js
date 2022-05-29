@@ -33,11 +33,9 @@ function handleSubmit(event) {
   } else {
     user.email = email.value;
     user.password = password.value;
-  }
-
-  console.log(user);
-
+    console.log(user);
   event.currentTarget.reset();
+  }
 }
 
 
